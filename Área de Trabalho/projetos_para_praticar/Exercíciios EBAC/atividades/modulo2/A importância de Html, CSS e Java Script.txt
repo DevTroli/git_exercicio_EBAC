@@ -1,0 +1,7 @@
+A importância de Html, CSS e Java Script na criação de páginas web 
+
+ 
+
+Html, Css e Java Script são as principais linguagens de um front end. Sendo Html criando toda uma estrutura, escrito por uma marcação de hypertext para criar cabeçalhos, vídeos, imagens, entre outras funcionalidades. O Css já é a parte que estiliza todo o conteúdo criado para ter assim ter um bom design e por fim o Java Script diferente dos anteriores é uma linguagem de programação que cuida de toda a logística do site como suas ações, interações, processos lógicos e muitas mecânicas úteis. 
+
+Tendo em vista em todos os conceitos acima podemos perceber que a maioria dos grandes sites da web são feitos com esses três, por exemplo: Netflix e LinkedIn. 
