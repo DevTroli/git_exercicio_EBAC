@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato 1UP games</title>
+    <link rel="stylesheet" href="./src/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Atendimento ao cliente</h1>
+        <h2> Feedback ou Duvidas</h2>
+        <form id="formulario">
+            <input type="text" id="nomeUsuario" required placeholder=" Digite seu nome aqui" />
+            <p id="mensagemErro"> nome invalido, tente novamente </p>
+            <input type="email" id="emailUsuario" required placeholder="coloque seu melhor e-mail aqui" />
+            <p id="mensagemErro2">email invalido, tente novamente </p>
+            <textarea  required placeholder=" Informe aqui do que se trata seu conato" id="descricao"></textarea>
+            <button id="btn" type="submit">Enviar</button>
+            <p id="mensagemSucesso"></p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
