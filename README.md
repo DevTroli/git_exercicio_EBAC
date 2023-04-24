@@ -3,7 +3,7 @@
 
 Este é um simples formulário de contato que permite aos usuários enviar feedback ou dúvidas à equipe de atendimento ao cliente da 1UP Games.
 
-![foto do formulario](https://imgur.com/a/KRAo3NK)
+![foto do formulario](https://raw.githubusercontent.com/DevTroli/git_exercicio_EBAC/exercicio_html_js/Contato%201UP%20games.png)
 
 
 ## Funcionalidades
