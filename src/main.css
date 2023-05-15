@@ -11,13 +11,13 @@
   }
   
   header {
-    background-color: #f1d15b;
+    background-color: #000000;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: #efaf25c2 5px solid;
+    border-bottom: #b2b2b2c2 5px solid;
   }
   header h1 {
     font-size: 30px;
@@ -51,11 +51,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 60px;
-    background-color: #f2f2f2;
-    margin-top: 10px;
+    background-color: #e3dadade;
+    margin-top: 8px;
   }
   
   
+.imagem{
+  width: 100%;
+
+}
+
   .sobre-texto {
     width: 50%;
     
@@ -70,13 +75,13 @@
   .sobre-texto h2
   {
     margin-bottom: 20px;
-    border-bottom: #e9d32c 2px solid;
+    border-bottom: #000000 2px solid;
   }
   
   .titulo{
     text-align: left;
     margin-top: 20px;
-    border-bottom: #e9d32c 1px solid;
+    border-bottom: #000000 1px solid;
   }
 
   .produtos {
@@ -97,7 +102,7 @@
   
   
   .produto:hover {
-    box-shadow: 0 2px 8px rgb(251, 240, 92);
+    box-shadow: 0 2px 8px rgba(47, 47, 47, 0.713);
   }
 
   .produto img {
@@ -121,18 +126,18 @@
     margin-top: 10px;
     padding: 10px;
     width: 100%;
-    background-color: #e9d32c;
+    background-color: #000000;
     color: #fff;
     border: none;
     cursor: pointer;
   }
   
   .produto button:hover {
-    background-color: #ffd51a;
+    background-color: #605c5c;
   }
   
   footer {
-    background-color: #f4d152;
+    background-color: #000000;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -147,9 +152,24 @@
 
 
 
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
+  @media screen and (min-width: 768px) and (max-width: 1022px) {
     .produto {
       width: 49%;
+    }
+    .sobre{
+      display: block;
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    .imagem{
+      width: 100%;
+    }
+    .sobre-texto{
+     width: 100%;
+    }
+    .titulo{
+      text-align: center;
     }
   }
 
@@ -163,6 +183,7 @@
       .sobre{
        display: block;
        flex-direction: column;
+       margin-top: 0;
    }
    .sobre-texto{
        width: 100%;
@@ -186,7 +207,7 @@
    }
 
    header ul a{
-    background-color: #f8a909;
+    background-color: #a09a9a;
     border-radius: 5px;
     padding: 3px;
     align-items: center;
