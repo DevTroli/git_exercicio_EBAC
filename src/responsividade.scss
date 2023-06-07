@@ -1,0 +1,44 @@
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+
+    .menu {
+        padding: 20px;
+     }
+
+     .branding img{
+        padding: 10px;
+     }
+
+     section h2{
+        padding-top: 10px;
+     }
+
+     section{
+        padding: 10px;
+     }
+}
+
+@media screen and (max-width: 767px) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+
+    .menu {
+       padding: 20px;
+    }
+
+    .menu li a{
+        font-size: 14px;
+    }
+}
