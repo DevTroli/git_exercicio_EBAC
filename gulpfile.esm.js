@@ -1,7 +1,8 @@
 const gulp = require ('gulp');
-// const uglify = require ('gulp-uglify');
-// const sass = require ('gulp-sass')(require('sass'));
-// const imagemin = require ('gulp-imagemin');
+const uglify = require ('gulp-uglify');
+const sass = require ('gulp-sass')(require('sass'));
+const imagemin = require ('gulp-imagemin');
+
 async function images() {
   const imagemin = (await import('gulp-imagemin')).default;
   return gulp.src('./src/images/*')
@@ -23,8 +24,8 @@ async function images() {
     };
   
 
- exports.soma= soma;
- exports.sass = sass;
+exports.soma= soma;
+exports.sass = sass;
 exports.images = images;
    
 
