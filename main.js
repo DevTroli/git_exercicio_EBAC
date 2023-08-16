@@ -17,10 +17,9 @@ function Mobile(Processador, ram ,Armazenamento, GPU){
     Tech_hardware.call(this, Processador, ram ,Armazenamento, GPU);
 }
 
-
-const LaptopPablo = new Laptop("i5 1100H", "8GB", "256GB", "GTX 1650");
+const LaptopPablo = new Laptop("M1 Pro", "8GB", "512GB", "Apple-GPU");
 console.log(LaptopPablo);
 const DesktopTroli = new Desktop("M2 Ultra","64GB", "1TB", "Apple-GPU"); 
 console.log(DesktopTroli);
-const MobileTroli = new Mobile("A16 BIONIC", "12GB", "512GB", "Apple-GPU");
+const MobileTroli = new Mobile("A16 BIONIC", "12GB", "256GB", "Apple-GPU");
 console.log(MobileTroli);
